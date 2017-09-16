@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KernelAndKextPatches</key>
+	<dict>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>10.10.2+ 5Ghz UK</string>
+				<key>Find</key>
+				<data>QYP8/3QsSA==</data>
+				<key>Name</key>
+				<string>com.apple.driver.AirPort.Brcm4360</string>
+				<key>Replace</key>
+				<data>ZscGR0LrKw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.10.2+ 5Ghz Ireland</string>
+				<key>Find</key>
+				<data>QYP8/3QsSA==</data>
+				<key>Name</key>
+				<string>com.apple.driver.AirPort.Brcm4360</string>
+				<key>Replace</key>
+				<data>ZscGSUXrKw==</data>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
